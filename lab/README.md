@@ -1,15 +1,13 @@
-# 🧩 Event Flow & Delegation — Lab Folder Overview
+# :jigsaw: Event Flow & Delegation — Lab Folder Overview
 ## Purpose
 
 This folder contains a small, self-contained exercise that lets you apply previously learned concepts of DOM event propagation (capturing → target → bubbling) and event delegation. You will use a starter todo-list app to practice handling events and updating the DOM.
 
-## 📁 Contents
-
-- exercise.md — instructions and requirements
+## :file_folder: Contents
 
 - index.html — starter todo-list app for the exercise
 
-- exercise.js / files/ — starter JavaScript and helper code
+- exercise.js / files/ — starter JavaScript and exercise instructions
 
 - styles.css — optional, for app styling if separated
 
@@ -17,12 +15,12 @@ This folder contains a small, self-contained exercise that lets you apply previo
 
 - test/ / __test__.js — automated tests and grading guidance
 
-## 🚀 Quick Start
+## :rocket: Quick Start
 
 - Open index.html in a browser.
 
 - Follow instructions in exercise.md and complete the exercise.
 
-## 🧪 Testing
+## :test_tube: Testing
 
 Run npm test (if configured) or check labtests/ for guidance.
