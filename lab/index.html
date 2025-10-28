@@ -1,40 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>🧠 Event Flow & Delegation — Exercise</title>
-    <link rel="stylesheet" href="./styles.css">
-  </head>
-  <body>
-    <h1>🧩 Event Flow & Delegation — Exercise</h1>
+<head>
+  <meta charset="UTF-8">
+  <title>Todo List</title>
+  <style>
+    .completed { text-decoration: line-through; }
+  </style>
+</head>
+<body>
+  <h1>Todo List</h1>
 
-    <section class="controls">
-      <form id="todo-form">
-        <input id="todo-input" placeholder="New todo" />
-        <button type="submit">Add</button>
-      </form>
-    </section>
+  <form id="todo-form">
+    <input type="text" id="todo-input" placeholder="New task">
+    <button type="submit">Add Task</button>
+  </form>
 
-    <ul id="todo-list" class="todo-list">
-      <li class="todo-item">
-        <label>
-          <input type="checkbox" class="todo-checkbox">
-          <span class="todo-text">Learn about event flow</span>
-        </label>
-        <button class="todo-delete" aria-label="Delete">✕</button>
-      </li>
-      <li class="todo-item">
-        <label>
-          <input type="checkbox" class="todo-checkbox">
-          <span class="todo-text">Practice event delegation</span>
-        </label>
-        <button class="todo-delete" aria-label="Delete">✕</button>
-      </li>
-    </ul>
+  <ul id="todo-list">
+    <li>Task 1 <button class="remove">Remove</button></li>
+    <li>Task 2 <button class="remove">Remove</button></li>
+  </ul>
 
-    <p><em>💡 Tip:</em> Open your browser console to observe event logs.</p>
-
-    <script src="./exercise.js"></script>
-  </body>
+  <script src="solutions.js"></script>
+</body>
 </html>
