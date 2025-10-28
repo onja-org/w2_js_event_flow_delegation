@@ -1,0 +1,47 @@
+body {
+  font-family: system-ui, Arial;
+  padding: 20px;
+  background: #fafafa;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  max-width: 480px;
+}
+
+.todo-item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-item.completed .todo-text {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-delete {
+  margin-left: auto;
+  background: transparent;
+  border: 0;
+  color: #900;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.removing {
+  opacity: 0.5;
+  transform: translateX(6px);
+  transition: all 0.12s ease;
+}
+
+.controls {
+  margin-bottom: 12px;
+}
