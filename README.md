@@ -1,5 +1,5 @@
-# :mortar_board: JavaScript Event Flow & Delegation Lab
-## :dart: What You'll Learn
+# JavaScript Event Flow & Delegation Lab
+##  What You'll Learn
 
 In this hands-on lab, you'll master two crucial concepts in JavaScript DOM events:
 
@@ -19,7 +19,7 @@ In this hands-on lab, you'll master two crucial concepts in JavaScript DOM event
 
 - Improve performance and memory usage
 
-## :books: Lab Content
+## Lab Content
 
 - Lesson:
    - Covers DOM event flow and delegation, including:
@@ -39,13 +39,13 @@ In this hands-on lab, you'll master two crucial concepts in JavaScript DOM event
 
 - Test Suite: Verify your implementation works correctly
 
-## :world_map: Lab Structure
+## Lab Structure
 
 ![Project Structure](assets/project-structure.png)
 
 **Note**: The exercise instructions and steps are handled in lab/exercise.md.
 
-## :video_game: Getting Started
+## Getting Started
 
 - Clone this project
 
@@ -67,7 +67,7 @@ In this hands-on lab, you'll master two crucial concepts in JavaScript DOM event
 
 - Automated testing: Run the test suite in test/test.js
 
-## :dart: Learning Objectives
+## Learning Objectives
 
 By completing this lab, you'll be able to:
 
