@@ -43,11 +43,9 @@ In this hands-on lab, you'll master two crucial concepts in JavaScript DOM event
 
 ![Project Structure](assets/project-structure.png)
 
-**Note**: The exercise instructions and steps are handled in lab/exercise.md.
-
 ## Getting Started
 
-- Clone this project
+- Clone this project [w2_js_event_flow_delegation](https://github.com/onja-org/w2_js_event_flow_delegation)
 
 - Read the Lesson
 
