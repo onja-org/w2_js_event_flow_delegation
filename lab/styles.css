@@ -1,0 +1,85 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+#todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#todo-input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#todo-form button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#todo-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Task list styling */
+#todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+#todo-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+/* Completed tasks */
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Remove button */
+#todo-list .remove {
+  margin-left: auto;
+  padding: 4px 8px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#todo-list .remove:hover {
+  background-color: #b02a37;
+}
+
+/* Checkbox */
+#todo-list input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
